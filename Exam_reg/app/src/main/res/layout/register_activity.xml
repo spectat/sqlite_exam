@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#858fc4">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edt_fname"
+        android:layout_above="@+id/edt_lname"
+        android:layout_alignLeft="@+id/edt_lname"
+        android:layout_alignStart="@+id/edt_lname"
+        android:hint="first name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edt_lname"
+
+        android:layout_above="@+id/edt_address"
+        android:layout_alignLeft="@+id/edt_address"
+        android:layout_alignStart="@+id/edt_address"
+        android:hint="last name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edt_address"
+        android:layout_above="@+id/edt_email"
+        android:layout_alignLeft="@+id/edt_email"
+        android:layout_alignStart="@+id/edt_email"
+        android:hint="address" /><![CDATA[ />
+
+    ]]>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/edt_email"
+        android:layout_above="@+id/edt_password"
+        android:layout_alignLeft="@+id/edt_password"
+        android:layout_alignStart="@+id/edt_password"
+        android:hint="email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edt_password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:id="@+id/signup_bt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/edt_phone"
+        android:layout_below="@+id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:hint="phone" />
+
+</RelativeLayout>
